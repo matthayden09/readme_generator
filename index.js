@@ -1,15 +1,14 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-const generateMarkDown = require(".generateMarkdown");
-
-
-// array of questions for user
+const generateMarkDown = require("./generateMarkdown");
 
 // title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
 // WHEN I choose a license for my application from a list of options
 // THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+
+// array of questions for user
 
 const questions = () => {
     return inquirer.prompt([
@@ -26,7 +25,7 @@ const questions = () => {
       {
         type: 'input',
         name: 'installation',
-        message: 'List the steps to take in order to install the application',
+        message: 'What are the installation requirements?',
       },
       {
         type: 'input',
@@ -36,12 +35,12 @@ const questions = () => {
       {
         type: 'input',
         name: 'test',
-        message: 'Instructions on how to test application',
+        message: 'What is the command to run your test?',
       },
       {
         type: 'input',
         name: 'contribution',
-        message: 'How to contribute to the application',
+        message: 'Would you like others to contribute to this project?',
       },
       {
         type: 'input',
