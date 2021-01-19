@@ -16,7 +16,7 @@
 ## Usage
     Open the terminal at the desired file location then run "node" followed by the file name.
     
-![usage](https://github.com/matthayden09/readme_generator/assets/usage.png)
+![usage](https://github.com/matthayden09/readme_generator/blob/main/assets/usage.png)
 ## Contribution
     Contributions are welcome!
 ## Test
