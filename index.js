@@ -61,11 +61,3 @@ questions()
     .catch((err) => console.error(err));
 
 
-// function writeToFile(fileName, data) {
-// }
-
-// function call to initialize program
-
-// init();
-
-
