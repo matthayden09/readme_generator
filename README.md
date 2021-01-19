@@ -15,7 +15,7 @@
     node.js is required
 ## Usage
     Open the terminal at the desired file location then run "node" followed by the file name.
-    
+
 ![Usage](https://github.com/matthayden09/readme_generator/blob/main/assets/usage.png)
 
 [Link to video walkthrough](https://drive.google.com/file/d/16W8UDzSQRtlhU2FVbIA4YRa3qMls1oJ0/view)
