@@ -2,13 +2,13 @@
 const generateMarkdown = (data) => `# ${data.title}
     
 ## Table of Contents
-    * Description
-    * Installation
-    * Usage
-    * Contribution
-    * Test
-    * License
-    * Questions
+    * [Description](#description)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Contribution](#contribution)
+    * [Test](#test)
+    * [License](#license)
+    * [Questions](#questions)
 ## Description
     ${data.description}
 ## Installation
