@@ -32,12 +32,12 @@ const questions = () =>
             name: 'test',
             message: 'What is the command to run your test?',
         },
-        // {
-        //     type: 'list',
-        //     name: 'license',
-        //     message: 'Choose a license for your project',
-        //     choices:[]
-        // },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'Choose a license for your project',
+            choices:["Apache 2.0", "MIT", "ISC"]
+        },
         {
             type: 'input',
             name: 'contribution',

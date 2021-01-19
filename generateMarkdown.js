@@ -244,6 +244,19 @@ limitations under the License.`;
   ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
   OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.`;
 
+  // else if statement to set correct license and badge
+  if(data.license === "Apache 2.0"){
+    license = apache;
+    badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+  }else if(data.license === "MIT"){
+    license = mit;
+    badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+  }else if(data.license === "ISC"){
+    license = isc;
+    badge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+  }
+
+  // return generateMarkdown function
   return `
 # ${data.title}
 ${badge}
